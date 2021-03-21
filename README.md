@@ -20,7 +20,7 @@ Procesati coada si inserati cuvintele citite initial in stiva <strong>results �
 ### Hint:
 
 <p align="justify">
- Pentru a inversa literele unui cuvant folositi o structura de date de tip stiva (implementata cu lista). Adaptati stiva (functiile push si pop) astfel incat sa stocheze si manipuleze informatie de tip caracter. Pentru a inversa literele unui cuvant implementati functia <strong>processInput</strong> care primeste ca parametru sirul original si returneaza sirul inversat si proceseaza sirul astfel: incepand cu primul caracter, se adauga toate caracterele pana la ‘/0’ in stiva cu functia push. Apoi, cat timp stiva e goala, se extrag caractere din stiva cu pop si se adauga incepand cu prima pozitie in sirul de returnat.  
+ Pentru a inversa literele unui cuvant folositi o structura de date de tip stiva (implementata cu lista). Adaptati stiva (functiile push si pop) astfel incat sa stocheze si manipuleze informatie de tip caracter. Pentru a inversa literele unui cuvant implementati functia <strong>processInput</strong> care primeste ca parametru sirul original si returneaza sirul inversat si proceseaza sirul astfel: incepand cu primul caracter, se adauga toate caracterele pana la ‘/0’ in stiva cu functia push. Apoi, cat timp stiva nu este goala, se extrag caractere din stiva cu pop si se adauga incepand cu prima pozitie in sirul de returnat.  
 Extrageti elemente din coada – folosind functia deQueue adaptata pentru a returna informatie de tip sir de caractere.
 *inversarea caracterelor dintr-un cuvant se poate face, fie cand e adaugat cuvantul in coada, fie cand este extras si afisat.
 </p?>
