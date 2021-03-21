@@ -16,7 +16,7 @@ bool isNotStop(const char *word)
 }
 
 /**
- * @brief Functie ce citeste cuvant cu cuvant din fisierul primit ca parametru, adauga cuvantul citit in coada
+ * @brief Functie ce citeste cuvant cu cuvant din fisierul primit ca parametru, adauga fiecare cuvant citit in coada
  *        pana la intalnirea cuvantului "stop"
  * 
  * * Hint:
