@@ -10,10 +10,10 @@ BASE_SOURCE_TEST = main.cpp test-utils.cpp
 build:
 	$(CXX) $(CXXFLAGS) *.cpp -l$(SHARED-LIB) -I$(LIB_PATH) -I$(TEST_LIB_PATH) -L../build -o $(BUILD_FOLDER_PATH)$(EXECUTABLE)
 
-build-stack:
+build-queue:
 	$(CXX) $(CXXFLAGS) $(BASE_SOURCE_TEST) queue_tests.cpp -l$(SHARED-LIB) -I$(LIB_PATH) -I$(TEST_LIB_PATH) -L../build -o $(BUILD_FOLDER_PATH)$(EXECUTABLE)
 
-build-queue:
+build-stack:
 	$(CXX) $(CXXFLAGS) $(BASE_SOURCE_TEST) stack_tests.cpp -l$(SHARED-LIB) -I$(LIB_PATH) -I$(TEST_LIB_PATH) -L../build -o $(BUILD_FOLDER_PATH)$(EXECUTABLE)
 
 build-task:
