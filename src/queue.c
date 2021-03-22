@@ -64,5 +64,5 @@ void deleteQueue(Queue *queue){
  */
 bool isEmptyQueue(Queue *queue)
 {
-    // Nice to have
+    //TODO2.5: Needed by the tests
 }
