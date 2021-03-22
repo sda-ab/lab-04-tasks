@@ -63,5 +63,5 @@ char pop(Stack *stack)
  */
 bool isEmptyStack(Stack *stack)
 {
-    // Nice to have
+    //TODO1.5: Needed by the tests
 }
